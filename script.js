@@ -2,7 +2,7 @@ let butao = document.querySelector(".nao");
 let randomNumberTop = 0;
 let randomNumberLeft = 0;
 
-butao.addEventListener("mouseenter", ()=>{
+butao.addEventListener("mouseover", ()=>{
    const maxX = window.innerWidth - butao.offsetWidth;
    const maxY = window.innerHeight - butao.offsetHeight;
 
